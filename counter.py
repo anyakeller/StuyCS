@@ -34,3 +34,11 @@ file.write(newfile)
 
 novel.close()
 file.close()
+
+
+'''
+SWAGYOLO
+THE s.strip([char]) 
+meathod gets rid of the [char] appearances in string s!!!
+SUUUUUGOIII 
+'''
