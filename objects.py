@@ -15,5 +15,5 @@ class bruh:
         
 bruh1 = bruh("Yolo McSwaggins", 77, False)
 bruh2 = bruh("Jion Fairchild", 99, True)
-bruh3 = bruh("Ulugbek Akhmedov", 82, False)
+bruh3 = bruh("Lord AKH", 82, False)
 
