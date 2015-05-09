@@ -37,9 +37,6 @@ file.close()
 
 
 '''
-SWAGYOLO
-THE s.strip([char]) 
-meathod gets rid of the [char] appearances in string s!!!
-SUUUUUGOIII 
-What am I doing?
+The s.strip([char]) 
+meathod returns s withought [char]!!!
 '''
