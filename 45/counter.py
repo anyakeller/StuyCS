@@ -25,10 +25,20 @@ for word in novellist:
     else:
         words[word] = 1
 
+s={}
+largest,value = '',0
+for n in range(30):
+    for x in words:
+        if words[x] > value:
+            largest = x
+            value = words[x]
+    s[largest] = words.pop(largest)
+    largest , value = '',0
+
 #string to stick into new file
 newfile = "print '<table>'\n"
-for thing in words:
-    newfile += 'print "<tr><td>' + thing + '</td><td> ' + str(words[thing]) + '</td></tr>"\n'
+for thing in s:
+    newfile += 'print "<tr><td>' + thing + '</td><td> ' + str(s[thing]) + '</td></tr>"\n'
 
 
 
