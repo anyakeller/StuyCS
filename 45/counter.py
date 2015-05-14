@@ -5,7 +5,7 @@
 
 
 novel = open('lit.txt','r')
-file = open("wordtally.py", "w")
+file = open("asfdasd.py", "w")
 
 words = {} # dictionary for words
 
