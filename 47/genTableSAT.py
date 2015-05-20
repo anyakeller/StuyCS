@@ -3,7 +3,7 @@
 # HW48 -- How Many Numbers Could a Thinker Crunch, if a Thinker Could Crunch Numbers?
 # 2015-05-14                  
 '''
-My code is fi ished and now I broke it into sepparate functions so it is easier to modify and debug
+My code is finished and now I broke it into sepparate functions so it is easier to modify and debug
 '''
 
 #handles first column titles
@@ -80,11 +80,11 @@ def meanFind(nums):
 #does math things
 def mathThing():
     tablehtml = ''
+    #for the mathy things
+    maths = []
+    maths += [medianFind(nums)]
+    maths += [meanFind(nums)]
     for math in maths:
-        #for the mathy things
-        maths = []
-        maths += [medianFind(nums)]
-        maths += [meanFind(nums)]
         tablehtml +=  '''
             <tr>
                 <td></td>
@@ -93,38 +93,38 @@ def mathThing():
             tablehtml += '''
                 <td>''' + str(n) + '</td>'
         tablehtml += '\n\t</tr>'
-        return tablehtml
+    return tablehtml
 
 
-def allTheThings():
-    #opens file stuff
-    SATdata = open('data_SAT2014.csv','r')
-    file = open('statsSAT.html', 'w'), 
-    data = SATdata.readlines()    
-    #gets html code started and begins table
-    tablehtml = '''
-    <!DOCTYPE html> 
-    <html>
-    <body style="color:white;background: black;">
-    <center>
-    <head><h1> 2014 New York SAT data </h1></head>
-    <p>This is a record of the SAT data from high schools in NYC.  High schools with less than 4 persons taking the test were omitted from this list.</p>
-    <table border="1px">
-    '''
-    #adds the <th> row 
-    tablehtml = firstColumn(tablehtml)
-    #adds the the rest of the list and retuns the values of each collumn
-    nums, tablehtml = tableifyRest(data, tablehtml)
-    #adds 
-    tablehtml += mathThing()
-    #closes rest of tags 
-    tablehtml += '''
-    </table>
-    </center>
-    </body>
-    </html>
-    '''
-    #writes and closes files                                                        
-    file.write(tablehtml)
-    SATdata.close()
-    html.close()
+
+SATdata = open('data_SAT2014.csv','r')
+file = open('statsSAT.html', 'w')
+data = SATdata.readlines()    
+#gets html code started and begins table
+tablehtml = '''
+<!DOCTYPE html> 
+<html>
+<body style="color:white;background: black;">
+<center>
+<head><h1> 2014 New York SAT data </h1></head>
+<p>This is a record of the SAT data from high schools in NYC.  High schools with less than 4 persons taking the test were omitted from this list.</p>
+<table border="1px">
+'''
+#adds the <th> row 
+tablehtml = firstColumn(tablehtml)
+#adds the the rest of the list and retuns the values of each collumn
+nums, tablehtml = tableifyRest(data, tablehtml)
+#adds 
+tablehtml += mathThing()
+#closes rest of tags 
+tablehtml += '''
+</table>
+</center>
+</body>
+</html>
+'''
+#writes and closes files                                                        
+file.write(tablehtml)
+SATdata.close()
+file.close()
+
