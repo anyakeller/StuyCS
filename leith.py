@@ -10,3 +10,8 @@ def Esrever(l):
     print l
     
 Esrever(['swag','yolo','stuypulse'])
+
+
+
+
+#asldk;asdfdfjkl;aer
