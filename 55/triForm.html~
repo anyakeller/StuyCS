@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<!-- 
+     Template for FRONT-END 
+     by Clyde "Thluffy" Sinclair 
+  -->
+
+<html>
+<head>
+<title>INSERT FRONT END TITLE HERE</title>
+</head>
+
+<body>
+
+  <h3>Front-end template for utilizing form data.</h3>
+  Works in conjunction with tmplt_backEnd.py, which must reside in same directory as this file (tmplt_frontEnd.html) on a web server.
+  <br>
+
+  <h4>Usage: </h4>
+  Enter text in the text field, click submit.
+  <br>
+  Your browser will use this data to form a new request to the server, triggering tmplt_backEnd.py, which will respond with a new page.
+  <br><br>
+
+  <h4>ProTips:</h4>
+  <ol>
+    <li>  Copy both files to your your website, verify functionality.</li>
+    <li> If necessary, troubleshoot using your checklist for hosting HTML files and Python scripts on the web.</li>
+    <li>  View source of both files.</li>
+    <li>  Analyze closely.</li>
+    <li>  Modify code and observe change incurred by each change you make.</li>
+    <li>  Note anything noteworthy.</li>
+  </ol>
+
+  <br><br>
+
+  <form name="input" method="GET" action="tmplt_backEnd.py">
+    <br>
+    text input prompt: <input type="text" name="txt01">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
