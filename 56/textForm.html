@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<!-- 
+     Template for FRONT-END 
+     by Clyde "Thluffy" Sinclair 
+  -->
+
+<html>
+<center>
+<title> Encrypt   </title>
+<body style="color:white;background: black;">
+<head> <h1>Encrypter </h1></head>
+
+<body>
+
+  <form name="input" method="GET" action="textForm.py" style="color:white;">
+    <br>
+    Message: <input type="text" name="message">
+    <br>
+    Encryption: 
+    <input type="radio" name="encr" value="rot13">  rot13
+    <input type="radio" name="encr" value="reverse" checked> reverse
+    <br>
+    Style: 
+    <input type="checkbox" name="sty" value="b"> bold
+    <input type="checkbox" name="sty" value="i"> itallics
+    <input type="checkbox" name="sty" value="u"> underline
+    <input type="checkbox" name="sty" value="pre"> monospace
+    <br>
+    Color: <select name="color" size="1">
+        <option>red</option>
+        <option>orange</option>
+        <option>yellow</option>
+        <option>green</option>
+        <option>blue</option>
+        <option>indigo</option>
+        <option>violet</option>
+        <option selected>white</option>
+    </select>
+    <br>
+    <input type="submit" value="encrypt">
+    <br>
+  </form>
+
+</body>
+</center>
+</html>
