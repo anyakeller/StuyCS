@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Login Page</title>
+<script type="text/javascript" src="editing.js"></script>
+</head>
+
+<body>
+
+<div id="menu"> 
+<span id="top">Are you prepared?</span> 
+	<li id="nav"><a href="home.py">Home</a></li> 
+        <li id="nav"><a href="tools.py">Equipment</a></li> 
+        <li id="nav"><a href="quiz.py">Quiz</a></li> 
+	<li id="nav"><a href="safehouses.py">Safehouses</a></li>
+<br> 
+<span id="top">Account info</span> 
+        <li id="nav"> 
+            <a class="active" href = "login.html">Login</a> 
+        </li> 
+        <li id = "nav">     
+            <a href = "register.html">Register</a> 
+        </li> 
+</div> 
+
+<div id = "right">
+    <table>
+        <tr><td>
+         <h3>Login</h3>
+         </table>
+         <form  action="login.py" method="POST">
+         <table>
+          <tr>
+           <td>User Name:</td>
+           <td><input type="text" name="user"></td>
+          </tr>
+          <tr>
+           <td>Password:</td>
+           <td> <input type="password" name="pass"></td>
+          </tr>
+          <tr>
+          <td></td><td><input id="submit" type="submit" name="status" value="login"></td>
+          </tr>
+         </table>
+ If you don't have an account, <a href = "register.html">create one</a>.
+ </form>
+
+</div>
+</body>
+</html>
