@@ -1,0 +1,91 @@
+<li>
+    How does the disease spread?
+    <ul>
+    <li id = "quiz"><label><input type="radio" name="q1" value="a">water</label></li>
+    <li id = "quiz"><label><input type="radio" name="q1" value="b">air</label></li>
+    <li id = "quiz"><label><input type="radio" name="q1" value="c">contact</label></li>
+    <li id = "quiz"><label><input type="radio" name="q1" value="d">all of the above</label></li>
+    </ul>
+</li><br>
+<li>
+    How do I know if I have it?
+    <ul>
+    <li id = "quiz"><label><input type="radio" name="q2" value="a">You begin to want brains</label></li>
+    <li id = "quiz"><label><input type="radio" name="q2" value="b">You already do.  Everyone has it.</label></li>
+    <li id = "quiz"><label><input type="radio" name="q2" value="c">You show signs of internal bleeding</label></li>
+    <li id = "quiz"><label><input type="radio" name="q2" value="d">Headaches and stuff</label></li>
+    </ul>
+</li><br>
+<li>
+    How do you kill a zombie?
+    <ul>
+    <li id = "quiz"><label><input type="radio" name="q3" value="a">carefully</label></li>
+    <li id = "quiz"><label><input type="radio" name="q3" value="b">destroy their brain</label></li>
+    <li id = "quiz"><label><input type="radio" name="q3" value="c">shoot them in the heart</label></li>
+    <li id = "quiz"><label><input type="radio" name="q3" value="d">decapitate them</label></li>
+    </ul>
+</li><br>
+<li>
+Do zombies need to breathe?
+	<ul>
+	<li id = "quiz"><label><input type="radio" name="q4" value="a">they are human so they need oxygen like all of us</label></li>
+	<li id = "quiz"><label><input type="radio" name="q4" value="b">they can hold their breath longer but they still need air</label></li>
+	<li id = "quiz"><label><input type="radio" name="q4" value="c">they are technically dead so breathing is not needed</label></li>
+	<li id = "quiz"><label><input type="radio" name="q4" value="d">since they are falling apart, they need to breathe even more than we do</label></li>
+	</ul>
+</li><br>
+
+<li>
+	Is there a known cure?
+	<ul>
+	<li id = "quiz"><label><input type="radio" name="q5" value="a">There is no known cure.</label></li>
+	<li id = "quiz"><label><input type="radio" name="q5" value="b">The only cure is being kept secret by the govenment</label></li>
+	<li id = "quiz"><label><input type="radio" name="q5" value="c">The CDC is currently distributing the cure </label></li>
+	<li id = "quiz"><label><input type="radio" name="q5" value="d">Scientists found a cure but it is too difficult to mass produce</label></li>
+	</ul>
+</li><br>
+<li>
+	Which of these would be best to kill a zombie that is right next to you?
+	<ul>
+	<li id = "quiz"><label><input type="radio" name="q6" value="a">rifle</label></li>
+	<li id = "quiz"><label><input type="radio" name="q6" value="b">pistol</label></li>
+	<li id = "quiz"><label><input type="radio" name="q6" value="c">machine gun</label></li>
+	<li id = "quiz"><label><input type="radio" name="q6" value="d">knife</label></li>
+	</ul>
+</li><br>
+<li>
+	There are two zombies coming towards you, only inches away, and you're backed into a corner. You have no weapons on you. What do you do?
+	<ul>
+	<li id = "quiz"><label><input type="radio" name="q7" value="a">Pick up the gun right next to you</label></li>
+	<li id = "quiz"><label><input type="radio" name="q7" value="b">Kick the zombie down and run</label></li>
+	<li id = "quiz"><label><input type="radio" name="q7" value="c">Cry in the corner while you await your death</label></li>
+	<li id = "quiz"><label><input type="radio" name="q7" value="d">Try to move a bookshelf to distance yourself from the zombie</label></li>
+	</ul>
+</li><br>
+<li>
+	What is the best means of transportation in an infected area?
+	<ul>
+	<li id = "quiz"><label><input type="radio" name="q8" value="a">tank</label></li>
+	<li id = "quiz"><label><input type="radio" name="q8" value="b">horse</label></li>
+	<li id = "quiz"><label><input type="radio" name="q8" value="c">bicycle</label></li>
+	<li id = "quiz"><label><input type="radio" name="q8" value="d">motorcycle</label></li>
+	</ul>
+</li><br>
+<li>
+	What would you do if someone close to you started to turn (into a zombie) in front of  you?
+	<ul>
+	<li id = "quiz"><label><input type="radio" name="q9" value="a">Trap them and keep them in a secure location until they come out with a cure</label></li>
+	<li id = "quiz"><label><input type="radio" name="q9" value="b">Kill them</label></li>
+	<li id = "quiz"><label><input type="radio" name="q9" value="c">Let them free</label></li>
+	<li id = "quiz"><label><input type="radio" name="q9" value="d">Keep them captive and preform experiments on them</label></li>
+	</ul>
+</li><br>
+<li>
+	Which is NOT a term used as an alternative to "zombie"?
+	<ul>
+	<li id = "quiz"><label><input type="radio" name="q10" value="a">stalkers</label></li>
+	<li id = "quiz"><label><input type="radio" name="q10" value="b">walkers</label></li>
+	<li id = "quiz"><label><input type="radio" name="q10" value="c">roamers</label></li>
+	<li id = "quiz"><label><input type="radio" name="q10" value="d">biters</label></li>
+	</ul>
+</li><br>
