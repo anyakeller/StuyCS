@@ -37,17 +37,14 @@ print modeListB([7,7,8,6,8,6,2])   #[7,8,6]
 print '==========='
 
 def vBarGraphify(nums):
-    pos = 0 #for location bars
     top = max(nums)
     s = ''
     while top > 0:
-        while pos < len(nums):
-            if nums[pos] >= top:
+        for data in nums:
+            if data >= top:
                 s += '* '
             else:
                 s += '  '
-            pos += 1
-        pos = 0
         print s
         s = ''
         top -= 1

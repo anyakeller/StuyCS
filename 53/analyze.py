@@ -1,3 +1,18 @@
+# Anya Keller
+# IntroCS2 pd1
+# HW53 -- Better Code Through Incremental Revision
+# 2015-05-23
+
+
+'''
+Log:
+    -I gave the page a header/ better descrioption
+    -I gave the table headers
+    -I inseted a vertical bar graph!!!
+'''
+
+
+
 file = open('analysis.html','w')
 satOpen = open('statsSAT.html','r')
 gradeOpen = open('table.html','r')
